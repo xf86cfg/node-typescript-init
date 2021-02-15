@@ -1,0 +1,28 @@
+{
+  "name": "node-typescript-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xf86cfg/node-typescript-init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xf86cfg/node-typescript-init/issues"
+  },
+  "homepage": "https://github.com/xf86cfg/node-typescript-init#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.1.5"
+  }
+}
